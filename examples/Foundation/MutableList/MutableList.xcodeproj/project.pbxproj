@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C002B4E615CCF169002A4AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C002B4E515CCF169002A4AE1 /* Foundation.framework */; };
+		C002B4E915CCF169002A4AE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C002B4E815CCF169002A4AE1 /* main.m */; };
+		C002B4ED15CCF169002A4AE1 /* MutableList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C002B4EC15CCF169002A4AE1 /* MutableList.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C002B4DF15CCF169002A4AE1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C002B4ED15CCF169002A4AE1 /* MutableList.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C002B4E115CCF169002A4AE1 /* MutableList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MutableList; sourceTree = BUILT_PRODUCTS_DIR; };
+		C002B4E515CCF169002A4AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C002B4E815CCF169002A4AE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C002B4EB15CCF169002A4AE1 /* MutableList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MutableList-Prefix.pch"; sourceTree = "<group>"; };
+		C002B4EC15CCF169002A4AE1 /* MutableList.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MutableList.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C002B4DE15CCF169002A4AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C002B4E615CCF169002A4AE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C002B4D615CCF169002A4AE1 = {
+			isa = PBXGroup;
+			children = (
+				C002B4E715CCF169002A4AE1 /* MutableList */,
+				C002B4E415CCF169002A4AE1 /* Frameworks */,
+				C002B4E215CCF169002A4AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C002B4E215CCF169002A4AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C002B4E115CCF169002A4AE1 /* MutableList */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C002B4E415CCF169002A4AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C002B4E515CCF169002A4AE1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C002B4E715CCF169002A4AE1 /* MutableList */ = {
+			isa = PBXGroup;
+			children = (
+				C002B4E815CCF169002A4AE1 /* main.m */,
+				C002B4EC15CCF169002A4AE1 /* MutableList.1 */,
+				C002B4EA15CCF169002A4AE1 /* Supporting Files */,
+			);
+			path = MutableList;
+			sourceTree = "<group>";
+		};
+		C002B4EA15CCF169002A4AE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C002B4EB15CCF169002A4AE1 /* MutableList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C002B4E015CCF169002A4AE1 /* MutableList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C002B4F015CCF169002A4AE1 /* Build configuration list for PBXNativeTarget "MutableList" */;
+			buildPhases = (
+				C002B4DD15CCF169002A4AE1 /* Sources */,
+				C002B4DE15CCF169002A4AE1 /* Frameworks */,
+				C002B4DF15CCF169002A4AE1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutableList;
+			productName = MutableList;
+			productReference = C002B4E115CCF169002A4AE1 /* MutableList */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C002B4D815CCF169002A4AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jose Salcido";
+			};
+			buildConfigurationList = C002B4DB15CCF169002A4AE1 /* Build configuration list for PBXProject "MutableList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C002B4D615CCF169002A4AE1;
+			productRefGroup = C002B4E215CCF169002A4AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C002B4E015CCF169002A4AE1 /* MutableList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C002B4DD15CCF169002A4AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C002B4E915CCF169002A4AE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C002B4EE15CCF169002A4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C002B4EF15CCF169002A4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C002B4F115CCF169002A4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutableList/MutableList-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C002B4F215CCF169002A4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutableList/MutableList-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C002B4DB15CCF169002A4AE1 /* Build configuration list for PBXProject "MutableList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C002B4EE15CCF169002A4AE1 /* Debug */,
+				C002B4EF15CCF169002A4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C002B4F015CCF169002A4AE1 /* Build configuration list for PBXNativeTarget "MutableList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C002B4F115CCF169002A4AE1 /* Debug */,
+				C002B4F215CCF169002A4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C002B4D815CCF169002A4AE1 /* Project object */;
+}

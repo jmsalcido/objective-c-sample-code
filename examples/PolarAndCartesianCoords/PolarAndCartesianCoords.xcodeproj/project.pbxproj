@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0F915EB15CA5FD200536441 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C0F915EA15CA5FD200536441 /* main.c */; };
+		C0F915ED15CA5FD200536441 /* PolarAndCartesianCoords.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0F915EC15CA5FD200536441 /* PolarAndCartesianCoords.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0F915E415CA5FD200536441 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C0F915ED15CA5FD200536441 /* PolarAndCartesianCoords.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0F915E615CA5FD200536441 /* PolarAndCartesianCoords */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PolarAndCartesianCoords; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F915EA15CA5FD200536441 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C0F915EC15CA5FD200536441 /* PolarAndCartesianCoords.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PolarAndCartesianCoords.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0F915E315CA5FD200536441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0F915DB15CA5FD200536441 = {
+			isa = PBXGroup;
+			children = (
+				C0F915E915CA5FD200536441 /* PolarAndCartesianCoords */,
+				C0F915E715CA5FD200536441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0F915E715CA5FD200536441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0F915E615CA5FD200536441 /* PolarAndCartesianCoords */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0F915E915CA5FD200536441 /* PolarAndCartesianCoords */ = {
+			isa = PBXGroup;
+			children = (
+				C0F915EA15CA5FD200536441 /* main.c */,
+				C0F915EC15CA5FD200536441 /* PolarAndCartesianCoords.1 */,
+			);
+			path = PolarAndCartesianCoords;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0F915E515CA5FD200536441 /* PolarAndCartesianCoords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F915F015CA5FD200536441 /* Build configuration list for PBXNativeTarget "PolarAndCartesianCoords" */;
+			buildPhases = (
+				C0F915E215CA5FD200536441 /* Sources */,
+				C0F915E315CA5FD200536441 /* Frameworks */,
+				C0F915E415CA5FD200536441 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolarAndCartesianCoords;
+			productName = PolarAndCartesianCoords;
+			productReference = C0F915E615CA5FD200536441 /* PolarAndCartesianCoords */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0F915DD15CA5FD200536441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jose Salcido";
+			};
+			buildConfigurationList = C0F915E015CA5FD200536441 /* Build configuration list for PBXProject "PolarAndCartesianCoords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0F915DB15CA5FD200536441;
+			productRefGroup = C0F915E715CA5FD200536441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0F915E515CA5FD200536441 /* PolarAndCartesianCoords */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0F915E215CA5FD200536441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F915EB15CA5FD200536441 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0F915EE15CA5FD200536441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C0F915EF15CA5FD200536441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C0F915F115CA5FD200536441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0F915F215CA5FD200536441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0F915E015CA5FD200536441 /* Build configuration list for PBXProject "PolarAndCartesianCoords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F915EE15CA5FD200536441 /* Debug */,
+				C0F915EF15CA5FD200536441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F915F015CA5FD200536441 /* Build configuration list for PBXNativeTarget "PolarAndCartesianCoords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F915F115CA5FD200536441 /* Debug */,
+				C0F915F215CA5FD200536441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0F915DD15CA5FD200536441 /* Project object */;
+}
