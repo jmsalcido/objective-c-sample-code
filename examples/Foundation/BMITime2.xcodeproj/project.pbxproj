@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02E7DF415D06B5D00C65AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02E7DF315D06B5D00C65AF7 /* Foundation.framework */; };
+		C02E7DF715D06B5D00C65AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C02E7DF615D06B5D00C65AF7 /* main.m */; };
+		C02E7DFB15D06B5D00C65AF7 /* BMITime2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C02E7DFA15D06B5D00C65AF7 /* BMITime2.1 */; };
+		C02E7E0315D06B7A00C65AF7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C02E7E0215D06B7A00C65AF7 /* Person.m */; };
+		C02E7E0715D06C6700C65AF7 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = C02E7E0615D06C6700C65AF7 /* Employee.m */; };
+		C02E7E0A15D06D8900C65AF7 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = C02E7E0915D06D8900C65AF7 /* Asset.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C02E7DED15D06B5D00C65AF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C02E7DFB15D06B5D00C65AF7 /* BMITime2.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C02E7DEF15D06B5D00C65AF7 /* BMITime2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMITime2; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02E7DF315D06B5D00C65AF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C02E7DF615D06B5D00C65AF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C02E7DF915D06B5D00C65AF7 /* BMITime2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMITime2-Prefix.pch"; sourceTree = "<group>"; };
+		C02E7DFA15D06B5D00C65AF7 /* BMITime2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BMITime2.1; sourceTree = "<group>"; };
+		C02E7E0115D06B7A00C65AF7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Classes/Person.h; sourceTree = SOURCE_ROOT; };
+		C02E7E0215D06B7A00C65AF7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Classes/Person.m; sourceTree = SOURCE_ROOT; };
+		C02E7E0515D06C6700C65AF7 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Employee.h; path = Classes/Employee.h; sourceTree = "<group>"; };
+		C02E7E0615D06C6700C65AF7 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Employee.m; path = Classes/Employee.m; sourceTree = "<group>"; };
+		C02E7E0815D06D8900C65AF7 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Asset.h; path = Classes/Asset.h; sourceTree = "<group>"; };
+		C02E7E0915D06D8900C65AF7 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Asset.m; path = Classes/Asset.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02E7DEC15D06B5D00C65AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02E7DF415D06B5D00C65AF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02E7DE415D06B5D00C65AF7 = {
+			isa = PBXGroup;
+			children = (
+				C02E7DF515D06B5D00C65AF7 /* BMITime2 */,
+				C02E7E0415D06B8300C65AF7 /* Classes */,
+				C02E7DF215D06B5D00C65AF7 /* Frameworks */,
+				C02E7DF015D06B5D00C65AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02E7DF015D06B5D00C65AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02E7DEF15D06B5D00C65AF7 /* BMITime2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02E7DF215D06B5D00C65AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C02E7DF315D06B5D00C65AF7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C02E7DF515D06B5D00C65AF7 /* BMITime2 */ = {
+			isa = PBXGroup;
+			children = (
+				C02E7DF615D06B5D00C65AF7 /* main.m */,
+				C02E7DFA15D06B5D00C65AF7 /* BMITime2.1 */,
+				C02E7DF815D06B5D00C65AF7 /* Supporting Files */,
+			);
+			path = BMITime2;
+			sourceTree = "<group>";
+		};
+		C02E7DF815D06B5D00C65AF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C02E7DF915D06B5D00C65AF7 /* BMITime2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C02E7E0415D06B8300C65AF7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C02E7E0115D06B7A00C65AF7 /* Person.h */,
+				C02E7E0215D06B7A00C65AF7 /* Person.m */,
+				C02E7E0515D06C6700C65AF7 /* Employee.h */,
+				C02E7E0615D06C6700C65AF7 /* Employee.m */,
+				C02E7E0815D06D8900C65AF7 /* Asset.h */,
+				C02E7E0915D06D8900C65AF7 /* Asset.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02E7DEE15D06B5D00C65AF7 /* BMITime2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02E7DFE15D06B5D00C65AF7 /* Build configuration list for PBXNativeTarget "BMITime2" */;
+			buildPhases = (
+				C02E7DEB15D06B5D00C65AF7 /* Sources */,
+				C02E7DEC15D06B5D00C65AF7 /* Frameworks */,
+				C02E7DED15D06B5D00C65AF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMITime2;
+			productName = BMITime2;
+			productReference = C02E7DEF15D06B5D00C65AF7 /* BMITime2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02E7DE615D06B5D00C65AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jose Salcido";
+			};
+			buildConfigurationList = C02E7DE915D06B5D00C65AF7 /* Build configuration list for PBXProject "BMITime2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C02E7DE415D06B5D00C65AF7;
+			productRefGroup = C02E7DF015D06B5D00C65AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02E7DEE15D06B5D00C65AF7 /* BMITime2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02E7DEB15D06B5D00C65AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02E7DF715D06B5D00C65AF7 /* main.m in Sources */,
+				C02E7E0315D06B7A00C65AF7 /* Person.m in Sources */,
+				C02E7E0715D06C6700C65AF7 /* Employee.m in Sources */,
+				C02E7E0A15D06D8900C65AF7 /* Asset.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C02E7DFC15D06B5D00C65AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C02E7DFD15D06B5D00C65AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C02E7DFF15D06B5D00C65AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMITime2/BMITime2-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C02E7E0015D06B5D00C65AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMITime2/BMITime2-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02E7DE915D06B5D00C65AF7 /* Build configuration list for PBXProject "BMITime2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02E7DFC15D06B5D00C65AF7 /* Debug */,
+				C02E7DFD15D06B5D00C65AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02E7DFE15D06B5D00C65AF7 /* Build configuration list for PBXNativeTarget "BMITime2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02E7DFF15D06B5D00C65AF7 /* Debug */,
+				C02E7E0015D06B5D00C65AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02E7DE615D06B5D00C65AF7 /* Project object */;
+}

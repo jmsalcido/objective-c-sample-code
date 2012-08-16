@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BMITime2' target in the 'BMITime2' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
